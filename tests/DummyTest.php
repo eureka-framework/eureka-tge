@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Eureka\Component\Template\Tests;
+namespace Eureka\GameEngine\Tests;
 
 use PHPUnit\Framework\TestCase;
 

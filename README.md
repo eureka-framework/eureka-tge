@@ -1,27 +1,32 @@
-# component-template
-[![Current version](https://img.shields.io/packagist/v/eureka/component-template.svg?logo=composer)](https://packagist.org/packages/eureka/component-template)
-[![Supported PHP version](https://img.shields.io/static/v1?logo=php&label=PHP&message=7.4%20-%208.2&color=777bb4)](https://packagist.org/packages/eureka/component-template)
-![CI](https://github.com/eureka-framework/component-template/workflows/CI/badge.svg)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_component-template&metric=alert_status)](https://sonarcloud.io/dashboard?id=eureka-framework_component-template)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_component-template&metric=coverage)](https://sonarcloud.io/dashboard?id=eureka-framework_component-template)
+# eureka-cge
+[![Current version](https://img.shields.io/packagist/v/eureka/eureka-cge.svg?logo=composer)](https://packagist.org/packages/eureka/eureka-cge)
+[![Supported PHP version](https://img.shields.io/static/v1?logo=php&label=PHP&message=7.4%20-%208.2&color=777bb4)](https://packagist.org/packages/eureka/eureka-cge)
+![CI](https://github.com/eureka-framework/eureka-cge/workflows/CI/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_eureka-cge&metric=alert_status)](https://sonarcloud.io/dashboard?id=eureka-framework_eureka-cge)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eureka-framework_eureka-cge&metric=coverage)](https://sonarcloud.io/dashboard?id=eureka-framework_eureka-cge)
 
 ## Why?
 
-Template for new components
+Eureka - CLI Game Engine
 
-
+A Game Engine for CLI terminal
 
 ## Installation
 
 If you wish to install it in your project, require it via composer:
 
 ```bash
-composer require eureka/component-template
+composer require eureka/eureka-cge
 ```
 
 
+## Demo
+You can test the demo with the following command:
+```bash
+bin/play demo
+```
 
-## Usage
+## Usage (TODO)
 
 Usage:
 ```php
@@ -82,7 +87,7 @@ make analyze
 
 Minimal supported version:
 ```bash
-make php74compatibility
+make php81compatibility
 ```
 
 Maximal supported version:

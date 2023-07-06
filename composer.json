@@ -1,6 +1,6 @@
 {
-  "name": "eureka/component-template",
-  "description": "Template for new component & domain",
+  "name": "eureka/eureka-cge",
+  "description": "Game Engine For Terminal (console) ",
   "type": "library",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -14,12 +14,13 @@
 
   "autoload": {
     "psr-4": {
-      "Eureka\\Component\\Template\\": "./src"
+      "Eureka\\GameEngine\\": "./src",
+      "Eureka\\GameEngine\\Script\\": "./scripts"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Eureka\\Component\\Template\\Tests\\": "./tests"
+      "Eureka\\GameEngine\\Tests\\": "./tests"
     }
   },
 
@@ -31,14 +32,17 @@
   },
 
   "require": {
-    "php": "7.4.*||8.0.*||8.1.*||8.2.*"
+    "php": "8.1.*||8.2.*",
+    "eureka/component-console": "^6.0",
+    "ext-mbstring": "*",
+    "ext-readline": "*"
   },
 
   "require-dev": {
     "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
     "phpstan/phpstan": "^1.10",
-    "phpunit/phpcov": "^8.2",
-    "phpunit/phpunit": "^9.6",
+    "phpunit/phpcov": "^9.0",
+    "phpunit/phpunit": "^10.2",
     "squizlabs/php_codesniffer": "^3.7"
   }
 }
